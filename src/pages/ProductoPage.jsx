@@ -8,35 +8,35 @@ const ProductoPage = () => {
             nombre: 'Café Orgánico',
             precio: 120.00,
             stock: 15,
-            imagen: 'https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=60'
+            imagen: 'https://images.unsplash.com/photo-1595434091143-b375ced5fe5c?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         },
         {
             id: 2,
             nombre: 'Pan Artesanal',
             precio: 35.50,
             stock: 20,
-            imagen: 'https://images.unsplash.com/photo-1608198093002-ad4a8009dc12?auto=format&fit=crop&w=500&q=60'
+            imagen: 'https://images.unsplash.com/photo-1608198093002-ad4e005484ec?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         },
         {
             id: 3,
             nombre: 'Queso Añejo',
             precio: 89.90,
             stock: 10,
-            imagen: 'https://images.unsplash.com/photo-1611771341253-58b4c31440d4?auto=format&fit=crop&w=500&q=60'
+            imagen: 'https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         },
         {
             id: 4,
             nombre: 'Miel de Abeja',
             precio: 49.99,
             stock: 25,
-            imagen: 'https://images.unsplash.com/photo-1555243896-c709bfa0b564?auto=format&fit=crop&w=500&q=60'
+            imagen: 'https://images.unsplash.com/photo-1654515722385-c684c5331c04?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         },
         {
             id: 5,
             nombre: 'Chocolate Amargo',
             precio: 75.25,
             stock: 8,
-            imagen: 'https://images.unsplash.com/photo-1627328715728-7bcc1b5db87b?auto=format&fit=crop&w=500&q=60'
+            imagen: 'https://images.unsplash.com/photo-1589402669377-f7ac773e7f84?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         }
     ];
 
