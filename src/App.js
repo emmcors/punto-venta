@@ -5,12 +5,14 @@ import VentaPage from './pages/VentaPage';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<ProductoPage/>}/>
-        <Route path="/agregar" element={<VentaPage/>}/>
-      </Routes>
-    </Router>
+    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-300">
+      <Router>
+        <Routes>
+          <Route path="/" element={<ProductoPage/>}/>
+          <Route path="/agregar" element={<VentaPage/>}/>
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

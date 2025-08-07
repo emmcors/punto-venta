@@ -18,7 +18,7 @@ const ListaProductos = ({productos, onSeleccionar, filtroInicial=""}) => {
                 onChange={(e) => setFiltro(e.target.value)}
                 className="w-full mb-4 px-3 py-2 border rounded-md"
             />
-            <div className="max-h-64 overflow-y-auto space-y-2">
+            <div className="max-h-[600px] overflow-y-auto space-y-2">
                 <ul className="space-y-2">
                     {productosFiltrados.map((p) => (
                         <li
@@ -26,9 +26,9 @@ const ListaProductos = ({productos, onSeleccionar, filtroInicial=""}) => {
                         className="border p-4 rounded-md shadow hover:bg-blue-50"
                         onClick={() => onSeleccionar(p)}
                         >
-                            <div className="font-semibold">{p.nombre}</div>
-                            <div className="text-sm text-gray-600">ID: {p.id}</div>
-                            <div className="text-sm text-gray-700">Precio: ${p.precio}</div>
+                            <div className="font-semibold">{p.id}</div>
+                            <div className="text-sm text-gray-600">{p.nombre}</div>
+                            <div className="text-sm text-gray-700">${p.precio}</div>
                         </li>
                     ))}
                 </ul>
